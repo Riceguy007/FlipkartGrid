@@ -1,0 +1,9 @@
+# Large data files — don't upload to GitHub
+train.csv
+test.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
