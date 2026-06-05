@@ -7,3 +7,19 @@ __pycache__/
 *.pyc
 *.pyo
 .DS_Store
+
+# Virtual environments — never commit these
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE / Editor folders
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db

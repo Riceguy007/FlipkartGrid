@@ -58,17 +58,20 @@ Pure sklearn — no external dependencies (libomp-free).
 # Install dependencies
 pip install pandas scikit-learn numpy
 
-# Run the solution
-python3 solution.py
-# → generates submission.csv
+# Run the python script
+python solution.py
+
+# Or run the Jupyter Notebook:
+# Open solution.ipynb in Jupyter/VS Code and execute all cells.
 ```
 
 ## File Structure
 ```
 FlipkartGrid/
-├── solution.py          # Full ML pipeline
-├── submission.csv       # Final predictions (41778 rows)
-├── train.csv            # Training data
-├── test.csv             # Test data
-└── README.md
+├── solution.py                 # Full ML pipeline script
+├── solution.ipynb              # Jupyter Notebook version (required for submission)
+├── submission.csv              # Final predictions (41778 x 2, Index and demand)
+├── FlipkartGrid_Submission.zip # Re-packaged ZIP for hackathon source upload
+├── README.md                   # Project overview and run instructions
+└── approach.txt                # ML approach details
 ```
